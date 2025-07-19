@@ -86,6 +86,9 @@ jupyter notebook
 | 🎯 Training Accuracy | 99.83% | **Outstanding Performance** |
 | 📊 Validation Accuracy | 98.35% | Excellent Performance |
 | 🔄 Final Test Accuracy | 98.34% | Excellent Performance |
+| 📊 Precision | 98.0% | High Precision |
+| 🔄 Recall | 98.0% | High Recall |
+| ⚖️ F1-Score | 98.0% | Balanced Performance |
 
 ---
 
