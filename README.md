@@ -56,7 +56,7 @@ jupyter notebook
 - **Models Used:**
   - 🧠 Sequential Neural Network
   - 🔢 Multi-layer Perceptron (MLP)
-  - ⚖️ Class Balancing with RandomUnderSampler
+  - ⚖️ Class Balancing with SMOTE (Synthetic Minority Over-sampling Technique)
 
 - **Techniques Applied:**
   - 🔍 Comprehensive data visualization and exploration
@@ -75,10 +75,17 @@ jupyter notebook
 ### **Model Performance**
 | Metric | Score | Performance |
 |--------|-------|-------------|
-| 🎯 Accuracy | 98.22% | **Excellent Performance** |
+| 🎯 Accuracy | 98.34% | **Excellent Performance** |
 | 📊 Precision | 98.0% | High Precision |
 | 🔄 Recall | 98.0% | High Recall |
 | ⚖️ F1-Score | 98.0% | Balanced Performance |
+
+### **SMOTE Enhanced Model Performance**
+| Metric | Score | Performance |
+|--------|-------|-------------|
+| 🎯 Training Accuracy | 99.83% | **Outstanding Performance** |
+| 📊 Validation Accuracy | 98.35% | Excellent Performance |
+| 🔄 Final Test Accuracy | 98.34% | Excellent Performance |
 
 ---
 
@@ -94,13 +101,14 @@ jupyter notebook
 ---
 
 ### **🔍 Key Insights**
-- **High Accuracy**: Achieved 98.22% accuracy on test set, demonstrating excellent digit recognition capability
-- **Class Balance**: Successfully handled class imbalance using RandomUnderSampler technique
-- **Data Preprocessing**: Proper normalization (0-1 scaling) significantly improved model performance
+- **Enhanced Accuracy**: Achieved 98.34% accuracy on test set with SMOTE, demonstrating excellent digit recognition capability
+- **Advanced Class Balancing**: Successfully implemented SMOTE (Synthetic Minority Over-sampling Technique) for superior class balance
+- **Improved Training**: SMOTE model achieved 99.83% training accuracy, showing outstanding learning capability
+- **Data Preprocessing**: Proper normalization (0-1 scaling) and SMOTE resampling significantly improved model performance
 - **Neural Network Design**: Multi-layer architecture with ReLU activations proved effective for digit classification
-- **Training Efficiency**: Model converged quickly with 10 epochs, showing good learning dynamics
-- **Visualization**: Comprehensive visualization of training progress and prediction results
-- **Robust Performance**: Consistent high performance across all digit classes (0-9)
+- **Training Efficiency**: Both models converged quickly with 10 epochs, showing good learning dynamics
+- **Visualization**: Comprehensive visualization of training progress and prediction results for both approaches
+- **Robust Performance**: Consistent high performance across all digit classes (0-9) with enhanced SMOTE model
 
 ---
 
@@ -110,7 +118,7 @@ jupyter notebook
 - MNIST dataset loading and exploration
 - Data shape analysis and validation
 - Class distribution visualization
-- Random under-sampling for class balance
+- SMOTE (Synthetic Minority Over-sampling Technique) for advanced class balancing
 - Data normalization (0-1 scaling)
 
 **📊 Exploratory Data Analysis:**
@@ -137,11 +145,12 @@ jupyter notebook
 **📋 Notebook Structure:**
 - Data Loading & Initial Exploration
 - Data Visualization & Analysis
-- Class Imbalance Handling
 - Data Preprocessing & Normalization
+- SMOTE Class Balancing Implementation
 - Neural Network Architecture
-- Model Training & Validation
+- Model Training & Validation (Standard & SMOTE Enhanced)
 - Performance Evaluation & Visualization
+- Model Prediction Results & Analysis
 
 ---
 
