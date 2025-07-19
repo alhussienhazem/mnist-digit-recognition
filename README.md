@@ -80,6 +80,8 @@ jupyter notebook
 | 🔄 Recall | 98.0% | High Recall |
 | ⚖️ F1-Score | 98.0% | Balanced Performance |
 
+---
+
 ### **SMOTE Enhanced Model Performance**
 | Metric | Score | Performance |
 |--------|-------|-------------|
